@@ -1,6 +1,6 @@
 resource "aws_instance" "server" {
   ami           = "ami-0d18e50ca22537278"
-  instance_type = "t2.micro"
+  instance_type = "t3.micro"
   key_name = "test-a2"
 
   tags = {
