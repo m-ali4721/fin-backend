@@ -3,8 +3,8 @@ pipeline {
 
     environment {
         dockerImage =''
-        registry = 'makbar4721/dicea3:latest' 
-        registryCredential = 'dockerhub_id'
+        DOCKER_USER = 'DOCKER_USER'
+        DOCKER_PASS = credentials('DOCKER_PASS') 
     }
 
 
